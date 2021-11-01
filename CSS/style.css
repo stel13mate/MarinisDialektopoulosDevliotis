@@ -1,0 +1,62 @@
+body{
+    min-height: 130vh;
+    background-color: antiquewhite;
+}
+
+table{
+    width: 400px;
+}
+
+th{
+    text-align: left;
+}
+
+table, th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.carousel-item{
+height: 32rem;
+background: black;
+color: white;
+position: relative;
+
+}
+
+.container{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 10px;
+}
+
+.overlay image{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-position: center;
+    background-size: cover;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+}
+
+.card{
+    background-color: rgb(218, 218, 218);
+}
+
+.sticky-footer{
+    background-color: rgb(170, 170, 170);
+    position: sticky;
+    top: 100%;
+}
+
+
